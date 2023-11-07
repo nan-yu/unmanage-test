@@ -4,4 +4,6 @@ metadata:
   labels:
     pod-security.kubernetes.io/enforce: baseline
     pod-security.kubernetes.io/enforce-version: latest
+  annotations:
+    config.kubernetes.io/local-config: "true"
   name: gatekeeper-system
