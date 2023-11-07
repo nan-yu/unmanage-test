@@ -4,4 +4,6 @@ metadata:
   name: gatekeeper-admin
   namespace: gatekeeper-system
   annotations:
-    configmanagement.gke.io/managed: disabled
+    foo: bar
+  labels: 
+    foo: buz
