@@ -5,6 +5,5 @@ metadata:
   namespace: gatekeeper-system
   annotations:
     foo: bar
-    configmanagement.gke.io/managed: disabled
   labels: 
     foo: buz
