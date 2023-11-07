@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: gatekeeper-admin
+  namespace: gatekeeper-system
+  annotations:
+    configsync.gke.io/cluster-name-selector: cedi-gke-test-nonprod-us-central1-main
+    iam.gke.io/gcp-service-account: gke-cluster@cedi-gke-test-nonprod.iam.gserviceaccount.com
