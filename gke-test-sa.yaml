@@ -5,6 +5,5 @@ metadata:
   namespace: gatekeeper-system
   annotations:
     foo: bar
-    config.kubernetes.io/local-config: "true"
   labels: 
     foo: buz
